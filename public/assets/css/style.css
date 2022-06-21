@@ -662,6 +662,9 @@ footer {
 /* drop_down ends */
 
 @media screen and (max-width: 900px) {
+  .col_5 {
+    padding: 15px 0;
+  }
   .linksX {
     display: none;
   }
