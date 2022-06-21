@@ -158,8 +158,8 @@ nav {
   font-family: var(--primaryFont);
   font-style: normal;
   font-weight: 600;
-  font-size: 3rem;
-  line-height: 79px;
+  font-size: 2rem;
+  line-height: 50px;
   color: var(--blackColor);
 }
 
@@ -662,6 +662,9 @@ footer {
 /* drop_down ends */
 
 @media screen and (max-width: 900px) {
+  .col_5 {
+    padding: 15px 0;
+  }
   .linksX {
     display: none;
   }
